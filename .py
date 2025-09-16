@@ -21,10 +21,10 @@
 #     print("odd")
 # else:
 #     print("even")
-x = input("Number?")
 Even = x % 2 == 0
 Odd= x % 2 == 1
 if x == Even:
     print("Even")
 else:
     print("Odd")
+B
