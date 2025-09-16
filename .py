@@ -15,11 +15,16 @@
 #     print("false")
 # x = "test"
 # print(f"hello {x}")
-
-temp = 75
-if temp > 68:
-    print('warm')
-elif temp == 68:
-    print('perfect')
+# Odd=[1,3,5,7]
+# Odd_or_Even = input("is this odd or even?")
+# if Odd_or_Even == (Odd):
+#     print("odd")
+# else:
+#     print("even")
+x = input("Number?")
+Even = x % 2 == 0
+Odd= x % 2 == 1
+if x == Even:
+    print("Even")
 else:
-    print('cold')
+    print("Odd")
