@@ -7,6 +7,7 @@
 #     print(i)
 # print(values[0])
 # print(values[6])
+
 #this works
 # what_is_the_weather = input("whats the weather")
 # if what_is_the_weather == " sunny":
@@ -20,11 +21,18 @@
 # if Odd_or_Even == (Odd):
 #     print("odd")
 # else:
-#     print("even")
+#     print("even"
+
+x = "this is a thing"
+y= x.split( )
+z = y[0]
+print(y)
+print(z)
+
+x = input("Number?")
 Even = x % 2 == 0
 Odd= x % 2 == 1
 if x == Even:
     print("Even")
 else:
     print("Odd")
-B
