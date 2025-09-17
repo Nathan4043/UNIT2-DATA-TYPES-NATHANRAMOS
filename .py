@@ -29,10 +29,9 @@ z = y[0]
 print(y)
 print(z)
 
-x = input("Number?")
-Even = x % 2 == 0
-Odd= x % 2 == 1
-if x == Even:
+x = (int(input("Number?"))) #You need to make it an intrger. If its only an input it wont work
+Even = (x % 2) == 0
+if Even:
     print("Even")
 else:
     print("Odd")
