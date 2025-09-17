@@ -23,15 +23,28 @@
 # else:
 #     print("even"
 
-x = "this is a thing"
-y= x.split( )
-z = y[0]
-print(y)
-print(z)
-
-x = (int(input("Number?"))) #You need to make it an intrger. If its only an input it wont work
-Even = (x % 2) == 0
-if Even:
-    print("Even")
-else:
-    print("Odd")
+# x = "this is a thing"
+# y= x.split( )
+# z = y[0]
+# print(y)
+# print(z)
+# #number odd or even cowculator haha
+# x = (int(input("Number?"))) #You need to make it an intrger. If its only an input it wont work
+# Even = (x % 2) == 0
+# if Even:
+#     print("Even")
+# else:
+    # print("Odd")
+bill = input("How was the service and how much will you tip")
+bad = "0%"
+okay = "15%"
+good = "20%"
+great = "25%"
+if input =="bad":
+    print (bad)
+if input =="okay":
+    print(okay)
+if input =="good":
+    print(good)
+if input =="great":
+    print(great)
