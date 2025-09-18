@@ -35,16 +35,16 @@
 #     print("Even")
 # else:
     # print("Odd")
-bill = input("How was the service and how much will you tip")
+x =input("How was the service and how much will you tip")
 bad = "0%"
 okay = "15%"
 good = "20%"
 great = "25%"
-if input =="bad":
+if x =="bad":
     print (bad)
-if input =="okay":
+if x =="okay":
     print(okay)
-if input =="good":
+if x =="good":
     print(good)
-if input =="great":
+if x =="great":
     print(great)
