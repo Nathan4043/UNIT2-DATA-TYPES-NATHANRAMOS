@@ -6,7 +6,10 @@
 #         print("movies")
 # movie()
 #you cancange it to false or true
-# hw = False
+# hw = 
+x= input("Whats ur favorite food")
+if x == ("mustard"):
+    print("67")
 
 # def movies():
 #     if not hw:
@@ -19,4 +22,3 @@ def factors(x,y):
     if x % y ==0:
         print("factor")
 factors(25,5)
-#

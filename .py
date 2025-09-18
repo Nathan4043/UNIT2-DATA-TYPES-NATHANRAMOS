@@ -1,3 +1,7 @@
+# x= input("Whats ur favorite food")
+# if x == ("mustard"):
+#     print("67")
+
 # x = 3
 # y = float(3)
 # print(x,y)
@@ -35,16 +39,24 @@
 #     print("Even")
 # else:
     # print("Odd")
-x =input("How was the service and how much will you tip")
-bad = "0%"
-okay = "15%"
-good = "20%"
-great = "25%"
-if x =="bad":
-    print (bad)
-if x =="okay":
-    print(okay)
-if x =="good":
-    print(good)
-if x =="great":
-    print(great)
+#bill thingy
+# bill = input("How was the service and how much will you tip")
+# bad = "0%"
+# okay = "15%"
+# good = "20%"
+# great = "25%"
+# if bill =="bad":
+#     print (bad)
+# if bill =="okay":
+#     print(okay)
+# if bill =="good":
+#     print(good)
+# if bill =="great":
+#     print(great)
+
+# factor= (int(input("ill give factors")))
+factor="factor"
+def factors(x,y):
+    if x % y ==0:
+        print(factor)
+factors(39,5)
