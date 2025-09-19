@@ -55,9 +55,18 @@
 #     print(great)
 
 # factor= (int(input("ill give factors")))
-factor="factor"
-def factors(x,y):
-    if x % y ==0:
-        print(factor)
-factors(39,5)
-Awesome
+# x= (int(input("Number?")))
+# for i in range(1,x+1): #every integer has a factor of 1, based on the number you put, it will add 1 every loop
+    # if x%i==0:#based on that if x is divided by the integer that the loop gets and = 0, thats factor of it.
+        # print(i)# It will then be printed as seen.
+
+x= (int(input("1st number")))
+y= (int(input("2nd number")))
+for i in range(1,x+1)and(1,y+1):
+    if x%i and y%i:
+        print (i)
+
+x= (int(input("1st number")))
+y= (int(input("2nd number")))
+while(1,x+1)and(1,y+1)
+#x5%
