@@ -62,11 +62,12 @@
 
 x= (int(input("1st number")))
 y= (int(input("2nd number")))
-for i in range(1,x+1)and(1,y+1):
-    if x%i and y%i:
-        print (i)
+for i in range(1,x+1)and(1,1+y):
+    if x%i==0 and y&i==0:
+        print(i)
+       
+            
 
-x= (int(input("1st number")))
-y= (int(input("2nd number")))
-while(1,x+1)and(1,y+1)
-#x5%
+# x= (int(input("1st number")))
+# y= (int(input("2nd number")))
+# while(1,x+1)and(1,y+1):
