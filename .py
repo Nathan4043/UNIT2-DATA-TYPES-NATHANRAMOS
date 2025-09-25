@@ -60,29 +60,6 @@
     # if x%i==0:#based on that if x is divided by the integer that the loop gets and = 0, thats factor of it.
         # print(i)# It will then be printed as seen.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 x= (int(input("1st number")))
 y= (int(input("2nd number")))
 for i in range(x,x+1)and(y,y+1):
@@ -90,10 +67,6 @@ for i in range(x,x+1)and(y,y+1):
         if (y%i)==0:
 
             print(i)
-
-
-
-
             
 
 # x= (int(input("1st number")))
