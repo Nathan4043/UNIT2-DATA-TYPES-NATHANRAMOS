@@ -60,13 +60,18 @@
     # if x%i==0:#based on that if x is divided by the integer that the loop gets and = 0, thats factor of it.
         # print(i)# It will then be printed as seen.
 
-x= (int(input("1st number")))
-y= (int(input("2nd number")))
-for i in range(x,x+1)and(y,y+1):
-    if (x%i)==0:
-        if (y%i)==0:
+#x= (int(input("1st number")))
+#y= (int(input("2nd number")))
+#for i in range 
+x = int(input("1st number: "))
+y = int(input("2nd number: "))
 
-            print(i)
+smaller = min(x, y)  # find smaller number without using > or <
+
+for i in range(1, smaller + 1):
+    if x % i == 0 and y % i == 0:
+        print(i)
+
             
 
 # x= (int(input("1st number")))
