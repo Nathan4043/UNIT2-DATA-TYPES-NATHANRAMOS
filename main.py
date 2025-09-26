@@ -59,19 +59,12 @@
 # for i in range(1,x+1): #every integer has a factor of 1, based on the number you put, it will add 1 every loop
     # if x%i==0:#based on that if x is divided by the integer that the loop gets and = 0, thats factor of it.
         # print(i)# It will then be printed as seen.
-
-
+ 
 x= (int(input("1st number")))
 y= (int(input("2nd number")))
-<<<<<<< HEAD:.py
-for i in range (min(x,y) 0,-1):
-        if x%i==0 and y%i==0:
-            print("GCF",i)
-=======
 for i in range(min(x,y), 0,-1):
         if x%i==0 and y%i==0:
             print("GFC:",i)
->>>>>>> 5977769fd476eb8993ddcfb16f078a8315dde974:main.py
             break
             
 
