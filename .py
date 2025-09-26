@@ -71,3 +71,4 @@ for i in range(min(x,y)(0,-1)):
 # x= (int(input("1st number")))
 # y= (int(input("2nd number")))
 # while(1,x+1)and(1,y+1):
+int
