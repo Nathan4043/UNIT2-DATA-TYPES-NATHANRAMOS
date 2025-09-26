@@ -63,12 +63,19 @@
 
 x= (int(input("1st number")))
 y= (int(input("2nd number")))
+<<<<<<< HEAD:.py
 for i in range (min(x,y) 0,-1):
         if x%i==0 and y%i==0:
             print("GCF",i)
+=======
+for i in range(min(x,y), 0,-1):
+        if x%i==0 and y%i==0:
+            print("GFC:",i)
+>>>>>>> 5977769fd476eb8993ddcfb16f078a8315dde974:main.py
             break
             
 
 # x= (int(input("1st number")))
 # y= (int(input("2nd number")))
 # while(1,x+1)and(1,y+1):
+int
